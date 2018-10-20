@@ -1,7 +1,4 @@
-The crawler mainly targets the company listed in _cstat_firm_name_list_weid.csv_.
-<br>
+The crawler mainly targets the company listed in cstat_firm_name_list_weid.csv.
 Each company has at least one Entity Identification (EID) in FollowTheMoney.org.
-<br>
 A preprocessing work has been done to get those EID for each target companies.
-<br>
 The crawler queries by EID for the transactions of each companies
