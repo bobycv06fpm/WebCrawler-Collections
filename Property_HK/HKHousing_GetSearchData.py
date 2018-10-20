@@ -3,7 +3,7 @@
 """
 Created on Wed May  9 02:54:34 2018
 
-@author: LAU WAN HONG
+@author: Alex Lau
 """
 import requests
 import bs4 as bs
