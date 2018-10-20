@@ -3,7 +3,7 @@
 """
 Created on Tue May  8 23:34:15 2018
 
-@author: LAU WAN HONG
+@author: Alex Lau
 """
 import requests
 from bs4 import BeautifulSoup
@@ -95,7 +95,7 @@ def getPrem(driver, info_list):
 
 def getDF(user_list):
     # Set up web-driver
-    chromedriver = '/Users/hongyeah2151/Desktop/HKU/Year 5/[FINA2390] Financial Programming/Web_Scrape/chromedriver'
+    chromedriver = './chromedriver'
     os.environ["webdriver.chrome.driver"] = chromedriver
     driver = webdriver.Chrome(chromedriver)
     # Open the window
